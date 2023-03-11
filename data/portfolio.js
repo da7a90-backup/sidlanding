@@ -7,7 +7,7 @@ const about = {
   description: [
     "Let's bring your vision to life.",
   ],
-  resume: 'https://example.com',
+  resume: 'https://docs.google.com/document/d/16zEjxA5Ps8po9d3g8-nooYIN8qERtiQ4y5ubPDkfgso/edit?usp=sharing',
   social: {
     linkedin: 'https://linkedin.com/in/sid-barrack',
     github: 'https://github.com/da7a90-backup',
