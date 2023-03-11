@@ -1,16 +1,16 @@
 const about = {
   // all the properties are optional - can be left empty or deleted
   // each element in the description array is a paragraph
-  name: 'John Doe',
-  role: 'Software Engineer',
-  company: 'Acme Labs',
+  name: 'Sid Barrack',
+  role: 'Software Artisan',
+  company: 'Jus Finance',
   description: [
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    "Let's bring your vision to life.",
   ],
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://linkedin.com/in/sid-barrack',
+    github: 'https://github.com/da7a90-backup',
   },
   greetingEmoji: '👋',
 }
@@ -20,67 +20,80 @@ const projects = [
   // if there are no projects, Projects section won't show up
   // each element in the description array is a paragraph
   {
-    thumbnail: 'images/placeholder-image.jpeg',
-    name: 'Project 1',
+    thumbnail: 'images/freemoney.png',
+    name: 'Freemoney Mobile Wallet',
     description: [
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'Mobile Money wallet with KYC, prepaid Mastercard and international remittances',
     ],
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    stack: ['USSD', 'Android/IOS'],
+    livePreview: 'https://www.free.sn/free-money',
   },
   {
-    thumbnail: 'images/placeholder-image.jpeg',
-    name: 'Project 2',
+    thumbnail: 'images/mage.svg',
+    name: 'Mage',
     description: [
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'Web3 stream-to-earn platform',
     ],
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    stack: ['Web'],
+    livePreview: 'https://mage.stream',
   },
   {
-    thumbnail: 'images/placeholder-image.jpeg',
-    name: 'Project 3',
+    thumbnail: 'images/jus.png',
+    name: 'Jus Finance',
     description: [
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'DeFi savings app with mobile money on-ramps',
     ],
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    stack: ['𝐴𝑣𝑎𝑖𝑙𝑎𝑏𝑙𝑒 𝑠𝑜𝑜𝑛 on Android/IOS'],
+    livePreview: 'https://www.jus.finance',
   },
   {
-    thumbnail: 'images/placeholder-image.jpeg',
-    name: 'Project 4',
+    thumbnail: 'images/wmt.svg',
+    name: 'WMT Scan',
     description: [
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'Analytics dashboard for the World Mobile Mesh Network',
     ],
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    stack: ['Analytics', 'Web'],
+    livePreview: 'https://wmtscan.com/',
   },
 ]
 
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'TypeScript',
+  'API & Webhook development + integration',
+  'Database modelling and optimization',
+  'User Interface  design and development',
+  'Automation and Data scraping',
+  'Serverless and Edge computing',
+  'ETLs and Analytics',
+  'Microservices Architecture',
+  'CQRS',
+  'Event sourcing',
+  'QUIC protocol + HTTP/3',
+  'Tor reverse proxy and hidden services',
+  'IPFS + Filecoin',
+  'Smart contract development and DLT',
+  'Git and Github actions',
+  'gRPC',
+  'WebRTC',
+  'JavaScript/TypeScript',
+  'Java',
+  'Go',
   'React',
-  'Redux',
-  'SASS',
-  'Material UI',
-  'Git',
+  'Svelte',
+  'Node.js',
+  'MongoDB',
+  'Spring boot',
+  'SQL',
+  'AWS',
+  'Cloudflare Workers',
   'CI/CD',
   'Jest',
-  'Enzyme',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johndoe@mail.com',
+  email: 'sidbarrack@gmail.com',
 }
 
 export { about, projects, skills, contact }

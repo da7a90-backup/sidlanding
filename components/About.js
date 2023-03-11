@@ -15,21 +15,14 @@ const About = () => {
 
       {firstName && (
         <h1 className='about__greeting animate__animated animate__fadeInUp animate__delay-1s'>
-          Hey, I&apos;m <span className='text--strong'>{firstName}</span>.
-          {greetingEmoji && <span> {greetingEmoji}</span>}
+          Hi {greetingEmoji && <span> {greetingEmoji}</span>}, <span className='animate__animated animate__fadeInUp animate__delay-2s'>I&apos;m </span> <span className='text--strong animate__animated animate__fadeInUp animate__delay-2s'>{firstName}.</span>
+          
         </h1>
       )}
 
       {role && (
         <h1 className='about__role animate__animated animate__fadeInUp animate__delay-3s'>
-          I&apos;m a {role}
-          {company && (
-            <span>
-              {' '}
-              at <span className='text--strong'>{company}</span>
-            </span>
-          )}
-          .
+          I&apos;m a {role}.
         </h1>
       )}
 

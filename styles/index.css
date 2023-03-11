@@ -22,22 +22,23 @@ body {
 }
 
 .light {
-  --clr-bg: #fcfcfc;
-  --clr-bg-alt: #fff;
-  --clr-fg: #555;
-  --clr-fg-alt: #444;
-  --clr-primary: #2978b5;
-  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  --clr-bg: #fff;
+  --clr-bg-alt: #b644f46c;
+  --clr-fg: rgb(69, 69, 69);
+  --clr-fg-alt: #282828;
+  --clr-primary: #b644f4;
+  --shadow: rgba(136, 3, 212, 0.16) 0px 7px 29px 0px,
+  rgba(62, 0, 97, 0.08) 0px 0px 0px 2px;
 }
 
 .dark {
-  --clr-bg: #23283e;
-  --clr-bg-alt: #2a2f4c;
-  --clr-fg: #bdbddd;
+  --clr-bg: #000;
+  --clr-bg-alt: #b644f46c;
+  --clr-fg: rgb(255, 255, 255);
   --clr-fg-alt: #cdcdff;
-  --clr-primary: #90a0d9;
-  --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
-    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  --clr-primary: #b644f4;
+  --shadow:  rgba(136, 3, 212, 0.16) 0px 7px 29px 0px,
+  rgba(241, 216, 255, 0.112) 0px 0px 0px 2px;
 }
 
 .disable-scroll {
